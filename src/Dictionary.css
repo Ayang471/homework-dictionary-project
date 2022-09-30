@@ -6,8 +6,9 @@
 }
 
 .Dictionary section {
-  background-color: white;
+  background: #fdfdf9;
   padding: 30px;
+  border: 1px dotted rgb(180, 179, 179);
   border-radius: 8px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   margin: 30px 0;

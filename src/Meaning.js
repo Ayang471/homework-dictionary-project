@@ -15,11 +15,11 @@ export default function Meaning(props) {
                         <Example example={definition.example} />
                     </div>
                 );
-            })} 
+            })}
             <div className="Synonyms">
                 {props.meaning.synonyms.map(function (synonyms, index) {
                     return (
-                            <li key={index}>{synonyms}</li>                    
+                        <li key={index}>{synonyms}</li>
                     );
                 })}
             </div>

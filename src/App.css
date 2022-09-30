@@ -1,8 +1,20 @@
 body {
-  background-color: #e8e5f5;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(201, 235, 233) 10%,
+    rgb(250, 241, 220) 90%
+  );
 }
+
+.App h1 {
+  text-align: center;
+  margin: 50px;
+  margin-top: 35px;
+}
+
 .App {
-  max-width: 960px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 950px;
   margin: 0 auto;
 }
 
@@ -22,6 +34,11 @@ body {
   padding-bottom: 25px;
 }
 
+svg {
+  color: #88acbd;
+}
+
 .App a {
   color: #88acbd;
+  text-decoration: none;
 }

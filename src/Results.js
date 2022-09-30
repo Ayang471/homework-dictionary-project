@@ -9,7 +9,7 @@ export default function Results(props) {
         return (
             <div className="Results">
                 <section>
-                    <h2>{props.results.word}</h2>
+                    <h2 className="text-capitalize">{props.results.word}</h2>
                     {props.results.phonetics.map(function (phonetic, index) {
                         return (
                             <div key={index}>
@@ -17,13 +17,6 @@ export default function Results(props) {
                             </div>
                         );
                     })}
-                    <div className="Synonyms">
-                        {props.results.meanings[0].synonyms.map(function (synonyms, index) {
-                            return (
-                                <li key={index} className="text-capitalize">{synonyms}</li>
-                            );
-                        })}
-                    </div>
                 </section>
                 {props.results.meanings.map(function (meaning, index) {
                     return (
