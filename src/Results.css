@@ -1,5 +1,10 @@
+.Results section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 .Results h2 {
-  
   font-size: 36px;
   font-weight: semibold;
   line-height: 1.5;

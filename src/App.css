@@ -1,4 +1,5 @@
 body {
+  max-width: 100%;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(201, 235, 233) 10%,
@@ -8,12 +9,12 @@ body {
 
 .App h1 {
   text-align: center;
-  margin: 50px;
   margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 .App {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   max-width: 950px;
   margin: 0 auto;
 }
@@ -22,23 +23,14 @@ body {
   margin: 30px 0;
 }
 
-.App h1 {
-  text-align: center;
-  margin: 50px;
-  margin-top: 35px;
-}
-
 .App footer {
   text-align: center;
-  margin: 25px;
-  padding-bottom: 25px;
-}
-
-svg {
-  color: #88acbd;
+  font-size: 18px;
+  margin: 20px;
+  padding-bottom: 20px;
 }
 
 .App a {
-  color: #88acbd;
+  color: #6f91a1;
   text-decoration: none;
 }
