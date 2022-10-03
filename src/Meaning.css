@@ -3,20 +3,24 @@
   line-height: 1.5;
   font-weight: medium;
   font-style: italic;
+  margin-left:15px;
 }
 
 .Meaning .definition {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 350;
+   color: rgb(61, 61, 61);
+   margin-left:15px;
 }
 
 .Synonyms {
   font-weight: semibold;
   font-size: 18px;
-  color: rgb(68, 68, 68);
+  color: rgb(88, 88, 88);
   margin: 10px 0 0;
   padding: 0;
+  margin-left:15px;
 }
 
 .Synonyms li {
@@ -27,6 +31,6 @@
   padding: 6px 15px;
   margin-right: 15px;
   margin-bottom: 0;
-  margin-top: 15px;
-  border-radius: 20px;
+  margin-top: 10px;
+  border-radius: 18px;
 }

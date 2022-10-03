@@ -8,7 +8,7 @@
 .Dictionary section {
   background: #fffff4;
   padding: 30px;
-  border: 1px dotted rgb(180, 179, 179);
+  border: 1px solid rgb(180, 179, 179);
   border-radius: 8px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
   margin: 30px 0;
@@ -18,13 +18,13 @@
   font-size: 22px;
   color: #333;
   width: 100%;
-  padding: 6px 8px;
+  padding: 6px 15px;
   border: 1px solid rgb(212, 211, 211);
   border-radius: 6px;
 }
 
 .Dictionary .hint {
-  color: rgb(110, 110, 110);
+  color: rgb(88, 88, 88);
   font-size: 18px;
   margin-top: 10px;
   text-align: center;
