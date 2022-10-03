@@ -59,7 +59,7 @@ export default function Dictionary(props) {
                         />
                     </form>
                     <div className="hint">
-                        i.e. yoga, wine, guitar, plant...
+                        i.e. yoga, coffee, guitar, plant...
                     </div>
                 </section>
                 <Results results={results} />
