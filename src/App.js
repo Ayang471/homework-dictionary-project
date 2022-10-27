@@ -7,7 +7,7 @@ export default function App() {
       <header className="App-header">
         <div className="container">
           <h1>Dictionary</h1>
-          <Dictionary defaultKeyword=" " />
+          <Dictionary defaultKeyword="welcome" />
         </div>
       </header>
       <footer>Project coded by Alice Yang and it is open-sourced on <a href="https://github.com/Ayang471/homework-dictionary-project" target="_blank" rel="noreferrer">
