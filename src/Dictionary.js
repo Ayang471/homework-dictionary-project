@@ -27,7 +27,6 @@ export default function Dictionary(props) {
 
         const SheCodesApiKey = `fb7td2f4b45ab3397a44co90d20d5054`;
         let SheCodesApiUrl = `   https://api.shecodes.io/images/v1/search?query=${keyword}&key=${SheCodesApiKey}`;
-        //let headers = { Authorization: `Bearer ${pexelsApiKey}` };
         axios.get(SheCodesApiUrl).then(handlePexelsResponse);
     }
 
