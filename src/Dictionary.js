@@ -25,10 +25,10 @@ export default function Dictionary(props) {
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
         axios.get(apiUrl).then(handleDictionaryResponse);
 
-        const pexelsApiKey = `563492ad6f91700001000001b00ddeedc4a646d6a922f4158be3810a`;
-        let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
-        let headers = { Authorization: `Bearer ${pexelsApiKey}` };
-        axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
+        const SheCodesApiKey = `fb7td2f4b45ab3397a44co90d20d5054`;
+        let SheCodesApiUrl = `   https://api.shecodes.io/images/v1/search?query=${keyword}&key=${SheCodesApiKey}`;
+        //let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+        axios.get(SheCodesApiUrl).then(handlePexelsResponse);
     }
 
     function handleSubmit(event) {
