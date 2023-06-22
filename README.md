@@ -1,4 +1,4 @@
-Project hosted on Netlify: https://creative-tiramisu-c25be9.netlify.app/
+Project hosted on Netlify: https://ay-dictionary.netlify.app/
 
 # Getting Started with Create React App
 
